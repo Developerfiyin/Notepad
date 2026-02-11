@@ -24,7 +24,7 @@ const Home = () => {
           <img src={image} alt="" className="" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12  bg-red-600 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
           <img src={image1} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -44,20 +44,17 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-row text-center justify-center  bg-blue-500 rounded-2xl flex">
+        <div className="flex-row text-center justify-center py-10 bg-blue-500 rounded-2xl flex">
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
 
             <h4 className="font-semibold text-xl">
-              Use note titles, dates, tags, and keywords to search your notes,
-              <br />
-              attachments, and even photos with words. Plus, ask AI-Powered
-              <br />
-              Search to filter notes using natural language (no complicated
-              <br />git 
-              boolean searches required!) and give you direct answers to your
-              <br />
-              questions.
+              Use note titles, dates, tags, and keywords to search <br />
+              your notes, attachments, and even photos with <br />
+              words. Plus, ask AI-Powered Search to filter notes <br />
+              using natural language (no complicated git boolean <br />
+              searches required!) and give you direct answers to <br />
+              your questions.
             </h4>
 
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
