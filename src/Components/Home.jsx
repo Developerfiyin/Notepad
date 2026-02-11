@@ -6,7 +6,7 @@ import image2 from "../assets/image3.png";
 import image3 from "../assets/image4.png";
 import image4 from "../assets/image5.png";
 import image5 from "../assets/image6.png";
-
+import image6 from "../assets/image7.png";
 const Home = () => {
   return (
     <main>
@@ -99,7 +99,28 @@ const Home = () => {
           <img src={image5} alt="The second image for the home section" />
         </div>
 
-        
+        <div className="flex-row text-center justify-center mb-12 py-10 bg-red-500 rounded-2xl flex">
+          <div className=" my-auto space-y-6 ">
+            <h2 className="text-5xl font-bold text-center">
+              Take notes and take <br />
+              action
+            </h2>
+
+            <h4 className="font-semibold text-xl">
+              Use note titles, dates, tags, and keywords to search <br />
+              your notes, attachments, and even photos with <br />
+              words. Plus, ask AI-Powered Search to filter notes <br />
+              using natural language (no complicated git boolean <br />
+              searches required!) and give you direct answers to <br />
+              your questions.
+            </h4>
+
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Learn More
+            </button>
+          </div>
+          <img src={image6} alt="The second image for the home section" />
+        </div>
       </div>
     </main>
   );
