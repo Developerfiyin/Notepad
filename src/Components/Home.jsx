@@ -107,12 +107,8 @@ const Home = () => {
             </h2>
 
             <h4 className="font-semibold text-xl">
-              Use note titles, dates, tags, and keywords to search <br />
-              your notes, attachments, and even photos with <br />
-              words. Plus, ask AI-Powered Search to filter notes <br />
-              using natural language (no complicated git boolean <br />
-              searches required!) and give you direct answers to <br />
-              your questions.
+              Create tasks inside your notes to give your to-dos <br /> context,
+              streamline your workflow, and get more done—faster
             </h4>
 
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
@@ -121,6 +117,9 @@ const Home = () => {
           </div>
           <img src={image6} alt="The second image for the home section" />
         </div>
+
+
+        
       </div>
     </main>
   );
