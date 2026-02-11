@@ -85,9 +85,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-col text-center items mb-12 py-10 bg-blue-500 rounded-2xl flex">
-          <div>
-            <img src={image4} alt="" className="mx-auto" />
+        <div className="flex-col text-center items-center mt-5 mb-12 pt-10 bg-blue-500 rounded-2xl flex">
+          <div className="space-y-7">
+            <img src={image4} alt="THE CLOUD IMAGE" className="mx-auto" />
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
             <h4 className="font-semibold text-xl">
               Use note titles, dates, tags, and keywords to search <br />
@@ -97,9 +97,6 @@ const Home = () => {
               searches required!) and give you direct answers to <br />
               your questions.
             </h4>
-            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
-              Learn More
-            </button>
           </div>
 
           <img src={image5} alt="The second image for the home section" />
