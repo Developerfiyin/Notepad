@@ -98,6 +98,8 @@ const Home = () => {
           </div>
           <img src={image5} alt="The second image for the home section" />
         </div>
+
+        
       </div>
     </main>
   );
