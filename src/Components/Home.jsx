@@ -8,6 +8,7 @@ import image4 from "../assets/image5.png";
 import image5 from "../assets/image6.png";
 import image6 from "../assets/image7.png";
 import image7 from "../assets/image8.png";
+import image8 from "../assets/image9.png";
 const Home = () => {
   return (
     <main>
@@ -139,8 +140,38 @@ const Home = () => {
           </div>
         </div>
 
+        <div className="flex-col text-center items-center mt-5 mb-12 pt-10 bg-blue-500 rounded-2xl flex">
+          <div className="space-y-7">
+            <img src={image4} alt="THE CLOUD IMAGE" className="mx-auto" />
+            <h2 className="text-5xl font-bold text-center">Search made easy</h2>
+            <h4 className="font-semibold text-xl">
+              Tired of not having the right info handy when you need it?
+              Notetaker <br />
+              automatically saves notes online and syncs them to all your
+              devices.
+            </h4>
+          </div>
+          <img src={image5} alt="The second image for the home section" />
+        </div>
 
-        
+        <div className="flex-row text-center justify-center mb-12 py-10 bg-red-500 rounded-2xl flex">
+          <div className=" my-auto space-y-6 ">
+            <h2 className="text-5xl font-bold text-center">
+              Take notes and take <br />
+              action
+            </h2>
+
+            <h4 className="font-semibold text-xl">
+              Create tasks inside your notes to give your to-dos <br /> context,
+              streamline your workflow, and get more done—faster
+            </h4>
+
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Learn More
+            </button>
+          </div>
+          <img src={image8} alt="The second image for the home section" />
+        </div>
       </div>
     </main>
   );
