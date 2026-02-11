@@ -1,5 +1,4 @@
 import "./App.css";
-import Header from "./Components/header";
 import Account from "./Components/Account";
 import Dashboard from "./Components/dashboard";
 import Home from "./Components/Home";
@@ -11,9 +10,9 @@ function App() {
       <div>
         <Routes>
           <Route path="/home" element={<Home />} /> {/* HOME PAGE*/}
-          <Route path="/header" element={<Header />} /> {/* Header page*/}
           <Route path="/account" element={<Account />} /> {/* Login page*/}
-          <Route path="/dashbord" element={<Dashboard />} /> {/* Dashboard page*/}
+          <Route path="/dashbord" element={<Dashboard />} />{" "}
+          {/* Dashboard page*/}
         </Routes>
         <Header />
       </div>
