@@ -7,6 +7,7 @@ import image3 from "../assets/image4.png";
 import image4 from "../assets/image5.png";
 import image5 from "../assets/image6.png";
 import image6 from "../assets/image7.png";
+import image7 from "../assets/image8.png";
 const Home = () => {
   return (
     <main>
@@ -118,8 +119,25 @@ const Home = () => {
           <img src={image6} alt="The second image for the home section" />
         </div>
 
+        <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
+          <img src={image7} alt="The second image for the home section" />
+          <div className=" my-auto space-y-6 ">
+            <h2 className="text-5xl font-bold text-center">
+              Scan everything <br /> that matters
+            </h2>
 
-        
+            <h4 className="font-semibold text-xl">
+              Capture thoughts and inspiration anywhere, at any time, <br />
+              in any format, and on any device—your <br />
+              important notes, images, receipts, and documents <br />
+              are safe and right at your fingertips.
+            </h4>
+
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Get Notetaker free
+            </button>
+          </div>
+        </div>
       </div>
     </main>
   );
