@@ -119,7 +119,7 @@ const Home = () => {
           <img src={image6} alt="The second image for the home section" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
           <img src={image7} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -127,17 +127,20 @@ const Home = () => {
             </h2>
 
             <h4 className="font-semibold text-xl">
-              Capture thoughts and inspiration anywhere, at any time, <br />
-              in any format, and on any device—your <br />
-              important notes, images, receipts, and documents <br />
-              are safe and right at your fingertips.
+              Keep your important papers with you, whenever <br />
+              and wherever you need them: healthcare and <br /> insurance files,
+              ID cards, warranty and product <br />
+              information, and more—even handwritten notes.
             </h4>
 
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
-              Get Notetaker free
+              Learn More
             </button>
           </div>
         </div>
+
+
+        
       </div>
     </main>
   );
