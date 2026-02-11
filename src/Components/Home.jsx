@@ -3,6 +3,7 @@ import Header from "./header";
 import image from "../assets/image1.png";
 import image1 from "../assets/image2.png";
 import image2 from "../assets/image3.png";
+import image3 from "../assets/image4.png";
 
 const Home = () => {
   return (
@@ -65,17 +66,16 @@ const Home = () => {
         </div>
 
         <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
-          <img src={image1} alt="The second image for the home section" />
+          <img src={image3} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
-              Remember <br className="" /> Everything
+              No signal? No <br className="" /> problem.
             </h2>
 
             <h4 className="font-semibold text-xl">
-              Capture thoughts and inspiration anywhere, at any time, <br />
-              in any format, and on any device—your <br />
-              important notes, images, receipts, and documents <br />
-              are safe and right at your fingertips.
+              With offline access, your notes are always with you <br />
+              —even if you’re nowhere near a Wi-Fi or mobile <br />
+              data signal.
             </h4>
 
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
