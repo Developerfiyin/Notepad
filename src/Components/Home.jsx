@@ -90,15 +90,12 @@ const Home = () => {
             <img src={image4} alt="THE CLOUD IMAGE" className="mx-auto" />
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
             <h4 className="font-semibold text-xl">
-              Use note titles, dates, tags, and keywords to search <br />
-              your notes, attachments, and even photos with <br />
-              words. Plus, ask AI-Powered Search to filter notes <br />
-              using natural language (no complicated git boolean <br />
-              searches required!) and give you direct answers to <br />
-              your questions.
+              Tired of not having the right info handy when you need it?
+              Notetaker <br />
+              automatically saves notes online and syncs them to all your
+              devices.
             </h4>
           </div>
-
           <img src={image5} alt="The second image for the home section" />
         </div>
       </div>
