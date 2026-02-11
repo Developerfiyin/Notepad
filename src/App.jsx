@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <div>
+      <div> 
         <Routes>
           <Route path="/" element={<Header />} /> {/* Header page*/}
           <Route path="/account" element={<Account />} /> {/* Login page*/}
