@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Components/header";
 import Account from "./Components/Account";
 import Dashboard from "./Components/dashboard";
+import Home from "./Components/Home";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
     <>
       <div>
         <Routes>
+          <Route path="/home" element={<Home />} /> {/* HOME PAGE*/}
           <Route path="/header" element={<Header />} /> {/* Header page*/}
           <Route path="/account" element={<Account />} /> {/* Login page*/}
-          <Route path="/dashbord" element={<Dashboard />} /> {/* Login page*/}
+          <Route path="/dashbord" element={<Dashboard />} /> {/* Dashboard page*/}
         </Routes>
         <Header />
       </div>
