@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./header";
 import image from "../assets/image1.png";
 import image1 from "../assets/image2.png";
+import image2 from "../assets/image3.png";
+
 const Home = () => {
   return (
     <main>
@@ -22,7 +24,31 @@ const Home = () => {
           <img src={image} alt="" className="" />
         </div>
 
-        <div className="flex-row text-center justify-center bg-red-600 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12  bg-red-600 rounded-2xl flex">
+          <img src={image1} alt="The second image for the home section" />
+          <div className=" my-auto space-y-6 ">
+            <h2 className="text-5xl font-bold text-center">
+              Remember <br className="" /> Everything
+            </h2>
+
+            <h4 className="font-semibold text-xl">
+              Use note titles, dates, tags, and keywords to search your notes,
+              <br />
+              attachments, and even photos with words. Plus, ask AI-Powered
+              <br />
+              Search to filter notes using natural language (no complicated
+              <br />
+              boolean searches required!) and give you direct answers to your
+              questions..
+            </h4>
+
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Get Notetaker free
+            </button>
+          </div>
+        </div>
+
+        <div className="flex-row text-center justify-center  bg-blue-500 rounded-2xl flex">
           <img src={image1} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -40,11 +66,6 @@ const Home = () => {
               Get Notetaker free
             </button>
           </div>
-
-           <div>
-            
-           </div>
-
         </div>
       </div>
     </main>
