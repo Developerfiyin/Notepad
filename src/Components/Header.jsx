@@ -9,8 +9,8 @@ const Header = () => {
     navigate(path);
   };
   return (
-    <main className="text-xl font-medium py-6 px-6  text-white justify-around flex flex-row ">
-      <nav >
+    <nav className="sticky top-0 z-50 w-full bg-white border-b border-gray-200 py-4">
+      <div>
         <div>
           <img src={image} alt="The Image" />
         </div>
@@ -41,8 +41,8 @@ const Header = () => {
             Account
           </button>
         </div>
-      </nav>
-    </main>
+      </div>
+    </nav>
   );
 };
 
