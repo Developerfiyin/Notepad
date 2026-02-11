@@ -4,6 +4,8 @@ import image from "../assets/image1.png";
 import image1 from "../assets/image2.png";
 import image2 from "../assets/image3.png";
 import image3 from "../assets/image4.png";
+import image4 from "../assets/image5.png";
+import image5 from "../assets/image6.png";
 
 const Home = () => {
   return (
@@ -77,11 +79,30 @@ const Home = () => {
               —even if you’re nowhere near a Wi-Fi or mobile <br />
               data signal.
             </h4>
-
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
               Get Notetaker free
             </button>
           </div>
+        </div>
+
+        <div className="flex-col text-center items mb-12 py-10 bg-blue-500 rounded-2xl flex">
+          <div>
+            <img src={image4} alt="" className="mx-auto" />
+            <h2 className="text-5xl font-bold text-center">Search made easy</h2>
+            <h4 className="font-semibold text-xl">
+              Use note titles, dates, tags, and keywords to search <br />
+              your notes, attachments, and even photos with <br />
+              words. Plus, ask AI-Powered Search to filter notes <br />
+              using natural language (no complicated git boolean <br />
+              searches required!) and give you direct answers to <br />
+              your questions.
+            </h4>
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Learn More
+            </button>
+          </div>
+
+          <img src={image5} alt="The second image for the home section" />
         </div>
       </div>
     </main>
