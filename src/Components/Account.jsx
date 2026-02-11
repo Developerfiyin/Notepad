@@ -35,7 +35,7 @@ const Account = () => {
   };
 
   return (
-    <div className='w-full  bg-black text-white py-8 px-6 grid  gap-8 items-center"'>
+    <div className='w-full bg-black text-white py-8 px-6 grid  gap-8 items-center"'>
       <h1 className="text-5xl text-purple-500 font-medium m-8 mt-5 text-center ">
         Log in!
       </h1>

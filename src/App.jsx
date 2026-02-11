@@ -9,7 +9,7 @@ function App() {
     <>
       <div>
         <Routes>
-          <Route path="/" element={<Header />} /> {/* Header page*/}
+          <Route path="/header" element={<Header />} /> {/* Header page*/}
           <Route path="/account" element={<Account />} /> {/* Login page*/}
           <Route path="/dashbord" element={<Dashboard />} /> {/* Login page*/}
         </Routes>
