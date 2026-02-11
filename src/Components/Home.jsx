@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <main>
       <Header />
-      
+      <div className="bg-orange-500 py-6 px-4"></div>
     </main>
   );
 };

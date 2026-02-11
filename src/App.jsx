@@ -9,12 +9,11 @@ function App() {
     <>
       <div>
         <Routes>
-          <Route path="/home" element={<Home />} /> {/* HOME PAGE*/}
+          <Route path="/" element={<Home />} /> {/* HOME PAGE*/}
           <Route path="/account" element={<Account />} /> {/* Login page*/}
           <Route path="/dashbord" element={<Dashboard />} />{" "}
           {/* Dashboard page*/}
         </Routes>
-        <Header />
       </div>
     </>
   );
