@@ -29,7 +29,7 @@ const Home = () => {
           <img src={image} alt="" className="" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
           <img src={image1} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-10 bg-blue-500 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
 
@@ -69,7 +69,7 @@ const Home = () => {
           <img src={image2} alt="The second image for the home section" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
           <img src={image3} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -87,7 +87,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-col text-center items-center mt-5 mb-12 pt-10 bg-blue-500 rounded-2xl flex">
+        <div className="flex-col text-center items-center mt-5 mb-12 pt-10 bg-black/65 rounded-2xl flex">
           <div className="space-y-7">
             <img src={image4} alt="THE CLOUD IMAGE" className="mx-auto" />
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
@@ -154,7 +154,7 @@ const Home = () => {
             </h4>
 
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
-              Learn More
+              Discover web Clipper
             </button>
           </div>
           <img src={image8} alt="The second image for the home section" />
