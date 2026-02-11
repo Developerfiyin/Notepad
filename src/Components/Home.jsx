@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-row text-center justify-center py-10 bg-blue-500 rounded-2xl flex">
+        <div className="flex-row text-center justify-center mb-12 py-10 bg-blue-500 rounded-2xl flex">
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
 
@@ -64,7 +64,25 @@ const Home = () => {
           <img src={image2} alt="The second image for the home section" />
         </div>
 
-        
+        <div className="flex-row text-center justify-center mb-12 py-12 bg-red-600 rounded-2xl flex">
+          <img src={image1} alt="The second image for the home section" />
+          <div className=" my-auto space-y-6 ">
+            <h2 className="text-5xl font-bold text-center">
+              Remember <br className="" /> Everything
+            </h2>
+
+            <h4 className="font-semibold text-xl">
+              Capture thoughts and inspiration anywhere, at any time, <br />
+              in any format, and on any device—your <br />
+              important notes, images, receipts, and documents <br />
+              are safe and right at your fingertips.
+            </h4>
+
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Get Notetaker free
+            </button>
+          </div>
+        </div>
       </div>
     </main>
   );
