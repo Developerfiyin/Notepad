@@ -1,7 +1,9 @@
 import React from "react";
 import image from "../assets/react.svg";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate;
   return (
     <main className="text-xl font-medium py-6 px-6 mx-auto text-white justify-around flex flex-row ">
       <div>
