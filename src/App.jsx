@@ -1,13 +1,13 @@
 import "./App.css";
 import Header from "./Components/header";
 import Account from "./Components/Account";
-import Dashboard from "./Components/Dashboard";
+import Dashboard from "./Components/dashboard";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <div> 
+      <div>
         <Routes>
           <Route path="/" element={<Header />} /> {/* Header page*/}
           <Route path="/account" element={<Account />} /> {/* Login page*/}
