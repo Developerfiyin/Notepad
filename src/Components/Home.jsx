@@ -24,16 +24,18 @@ const Home = () => {
 
         <div className="flex-row text-center justify-center bg-red-600 rounded-2xl flex">
           <img src={image1} alt="The second image for the home section" />
-          <div className=" my-auto  ">
+          <div className=" my-auto space-y-6 ">
             <h2 className="text-4xl font-bold text-center">
               Remember <br className="" /> Everything
             </h2>
 
-            <h4>
-              Capture thoughts and inspiration anywhere, at any time, in any
-              format, and on any device—your important notes, images, receipts,
-              and documents are safe and right at your fingertips.
+            <h4 className="font-semibold">
+              Capture thoughts and inspiration anywhere, at any time, <br />
+              in any format, and on any device—your <br />
+              important notes, images, receipts, and documents <br />
+              are safe and right at your fingertips.
             </h4>
+
           </div>
         </div>
       </div>
