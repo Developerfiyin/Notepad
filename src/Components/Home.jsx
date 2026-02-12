@@ -10,6 +10,7 @@ import image5 from "../assets/image6.png";
 import image6 from "../assets/image7.png";
 import image7 from "../assets/image8.png";
 import image8 from "../assets/image9.png";
+import image9 from "../assets/image10.png";
 const Home = () => {
   return (
     <main>
@@ -180,12 +181,19 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="">
           <h2 className="text-6xl font-bold text-center ">
             More than a notebook
           </h2>
-          <div className="flex "> 
-            
+          <div className="grid grid-cols-4 gap-5">
+            <div className="space-y-3">
+              <img src={image9} alt="" />
+              <h4 className="font-semibold text-2xl">Organize</h4>
+              <h5>
+                Use notebooks to structure your content. Add tags to make it
+                easier to find.
+              </h5>
+            </div>
           </div>
         </div>
       </div>
