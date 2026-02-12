@@ -179,6 +179,15 @@ const Home = () => {
             </button>
           </div>
         </div>
+
+        <div className="flex flex-col gap-4">
+          <h2 className="text-6xl font-bold text-center ">
+            More than a notebook
+          </h2>
+          <div className="flex "> 
+            
+          </div>
+        </div>
       </div>
     </main>
   );
