@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <main>
       <Header />
-      <div className="bg-white py-6 items-center grid px-12 w-full ">
+      <div className="bg-white shadow-md shadow-black py-6 items-center grid px-12 w-full ">
         <div className="bg-black/65 p-5 px-5 rounded-2xl mb-12">
           <h1 className="text-7xl font-medium mt-2 text-center mb-2">
             Get more from your note- <br className="mb-4" />
@@ -29,7 +29,7 @@ const Home = () => {
           <img src={image} alt="" className="" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
           <img src={image1} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
 
@@ -69,7 +69,7 @@ const Home = () => {
           <img src={image2} alt="The second image for the home section" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
           <img src={image3} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -87,7 +87,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-col text-center items-center mt-5 mb-12 pt-10 bg-black/65 rounded-2xl flex">
+        <div className="flex-col shadow-md shadow-black text-center items-center mt-5 mb-12 pt-10 bg-black/65 rounded-2xl flex">
           <div className="space-y-7">
             <img src={image4} alt="THE CLOUD IMAGE" className="mx-auto" />
             <h2 className="text-5xl font-bold text-center">Search made easy</h2>
@@ -101,7 +101,7 @@ const Home = () => {
           <img src={image5} alt="The second image for the home section" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
               Take notes and take <br />
@@ -120,7 +120,7 @@ const Home = () => {
           <img src={image6} alt="The second image for the home section" />
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
           <img src={image7} alt="The second image for the home section" />
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
@@ -140,7 +140,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="flex-row text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-10 bg-black/65 rounded-2xl flex">
           <div className=" my-auto space-y-6 ">
             <h2 className="text-5xl font-bold text-center">
               Clip web pages <br /> and articles
