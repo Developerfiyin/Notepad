@@ -162,18 +162,16 @@ const Home = () => {
         </div>
 
         <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
-          <ImQuotesLeft size={60} color="black" />
+          <ImQuotesLeft size={80} color="black" />
 
-          <div className=" my-auto space-y-6 ">
-            <h2 className="text-5xl font-bold text-center">
-              Scan everything <br /> that matters
-            </h2>
-
+          <div className=" my-auto space-y-3 ">
+            <h2 className="text-xl font-bold text-center">Notetaker</h2>
+            <h6>Certified expert</h6>
             <h4 className="font-semibold text-xl">
-              Keep your important papers with you, whenever <br />
-              and wherever you need them: healthcare and <br /> insurance files,
-              ID cards, warranty and product <br />
-              information, and more—even handwritten notes.
+              Getting thoughts and ideas into Evernote as soon as they <br />
+              cross my mind has been one of the best habits I've ever <br />
+              practiced. I keep my brain clear for new thoughts while not <br />
+              losing track of anything!
             </h4>
 
             <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
