@@ -1,4 +1,5 @@
 import React from "react";
+import { ImQuotesLeft } from "react-icons/im";
 import Header from "./header";
 import image from "../assets/image1.png";
 import image1 from "../assets/image2.png";
@@ -158,6 +159,27 @@ const Home = () => {
             </button>
           </div>
           <img src={image8} alt="The second image for the home section" />
+        </div>
+
+        <div className="flex-row shadow-md shadow-black text-center justify-center mb-12 py-12 bg-black/65 rounded-2xl flex">
+          <ImQuotesLeft size={60} color="black" />
+
+          <div className=" my-auto space-y-6 ">
+            <h2 className="text-5xl font-bold text-center">
+              Scan everything <br /> that matters
+            </h2>
+
+            <h4 className="font-semibold text-xl">
+              Keep your important papers with you, whenever <br />
+              and wherever you need them: healthcare and <br /> insurance files,
+              ID cards, warranty and product <br />
+              information, and more—even handwritten notes.
+            </h4>
+
+            <button className="text-white text-xl hover:bg-black/40 py-3 px-4 mb-5 rounded-md font-medium bg-black ">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
     </main>
