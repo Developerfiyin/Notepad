@@ -322,16 +322,66 @@ const Home = () => {
           <div>
             <div className=" flex flex-col items-start gap-4 w-full justify-self-end">
               <h3 className="font-bold text-2xl">Explore</h3>
-              <button type="button">AI Feature</button>
-              <button type="button">Collaboration</button>
-              <button type="button">Web Clipper</button>
-              <button type="button">Advanced search</button>
-              <button type="button">Document Scanning</button>
-              <button type="button">Personalization</button>
-              <button type="button">Calendar</button>
-              <button type="button">Tasks</button>
-              <button type="button">Integrations</button>
-              <button type="button">Sitemap</button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                AI Feature
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Collaboration
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Web Clipper
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Advanced search
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Document Scanning
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Personalization
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Calendar
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Tasks
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Integrations
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Sitemap
+              </button>
             </div>
           </div>
           <div>
