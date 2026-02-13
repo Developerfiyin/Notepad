@@ -276,15 +276,46 @@ const Home = () => {
               <h3 className="font-bold text-2xl  ">Solutions</h3>
               <button
                 type="button"
-                className="px-2 py-1 hover:bg-black/45 rounded font-semibold">
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
                 Why Notetaker?
               </button>
-              <button type="button">Note taking</button>
-              <button type="button">Self Organisation</button>
-              <button type="button">Productivity</button>
-              <button type="button">Enterprise</button>
-              <button type="button">Students</button>
-              <button type="button">Compare Plans</button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Note taking
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Self Organisation
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Productivity
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Enterprise
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Students
+              </button>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+              >
+                Compare Plans
+              </button>
             </div>
           </div>
 
