@@ -384,8 +384,18 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div>
-            <h3>Resources</h3>
+
+          <div className="flex flex-col items-start gap-4 w-full justify-self-end ">
+            <h3 className="font-bold text-2xl ">Resources</h3>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
           </div>
 
           <div>
