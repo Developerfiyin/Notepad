@@ -456,15 +456,12 @@ const Home = () => {
             </button>
           </div>
 
-          <div>
+          <div className=" flex flex-col items-start gap-4 w-full justify-self-end">
             <h3 className="font-bold text-2xl ">Get Started</h3>
-            <button type="button">Sign up for free.</button>
-            <button type="button">Log in</button>
-            <button type="button">Download</button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
+            <button type="button" className="px-2 py-1 hover:bg-black/45 rounded font-semibol">Sign up for free.</button>
+            <button type="button" className="px-2 py-1 hover:bg-black/45 rounded font-semibol">Log in</button>
+            <button type="button" className="px-2 py-1 hover:bg-black/45 rounded font-semibol">Download</button>
+            
 
           </div>
         </div>
