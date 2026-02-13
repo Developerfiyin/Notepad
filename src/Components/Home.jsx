@@ -387,15 +387,42 @@ const Home = () => {
 
           <div className="flex flex-col items-start gap-4 w-full justify-self-end ">
             <h3 className="font-bold text-2xl ">Resources</h3>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            > Notetaker News</button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            > </button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            ></button>
           </div>
 
           <div>
