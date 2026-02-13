@@ -11,6 +11,8 @@ import image6 from "../assets/image7.png";
 import image7 from "../assets/image8.png";
 import image8 from "../assets/image9.png";
 import image9 from "../assets/image10.png";
+import image10 from "../assets/image11.png";
+
 const Home = () => {
   return (
     <main>
@@ -192,6 +194,15 @@ const Home = () => {
               <h5>
                 Use notebooks to structure your content. Add tags to make it
                 easier to find.
+              </h5>
+            </div>
+
+            <div className="space-y-3">
+              <img src={image10} alt="THE SCISSORS IMAGE" />
+              <h4 className="font-semibold text-2xl">Clip</h4>
+              <h5>
+                Articles, recipes, pages, images—keep track of everything useful
+                you find online.
               </h5>
             </div>
           </div>
