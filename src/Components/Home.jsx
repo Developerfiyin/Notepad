@@ -455,10 +455,17 @@ const Home = () => {
               About Bending Spoons
             </button>
           </div>
-          
 
           <div>
-            <h3>Get Started</h3>
+            <h3 className="font-bold text-2xl ">Get Started</h3>
+            <button type="button">Sign up for free.</button>
+            <button type="button">Log in</button>
+            <button type="button">Download</button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+
           </div>
         </div>
       </div>
