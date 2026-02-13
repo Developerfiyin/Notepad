@@ -231,7 +231,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-4 gap-20 ">
+          <div className="grid grid-cols-4 gap-20 mb-12">
             <div className="space-y-3">
               <img src={image13} alt="THE HOME IMAGE" />
               <h4 className="font-semibold text-2xl"> Home</h4>
@@ -267,6 +267,22 @@ const Home = () => {
                 private.
               </h5>
             </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-4">
+          <div className="">
+            <h3 className="font-semibold text-xl mb-5 ">Solutions</h3>
+            <div className=" ">
+              <button>Why Notetaker?</button>
+              <button>Note taking</button>
+              <button>Self Organisation</button>
+            </div>
+          </div>
+
+          <div>
+            <h3>Explore</h3>
+            <button>AI Feature</button>
           </div>
         </div>
       </div>
