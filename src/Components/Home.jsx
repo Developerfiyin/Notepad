@@ -284,6 +284,14 @@ const Home = () => {
             <h3>Explore</h3>
             <button>AI Feature</button>
           </div>
+
+          <div>
+            <h3>Resources</h3>
+          </div>
+
+          <div>
+            <h3>Get Started</h3>
+          </div>
         </div>
       </div>
     </main>
