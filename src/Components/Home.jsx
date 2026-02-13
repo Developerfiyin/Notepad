@@ -391,35 +391,31 @@ const Home = () => {
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
               Notetaker News
             </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
               Product News
             </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
-              Release Notes{" "}
+              Release Notes
             </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
               Help & learning
             </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              Templates{" "}
+              Templates
             </button>
             <button
               type="button"
@@ -431,21 +427,18 @@ const Home = () => {
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
               Find an expert
             </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
               Developers
             </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
             >
-              {" "}
               Contact Us
             </button>
 
@@ -462,6 +455,7 @@ const Home = () => {
               About Bending Spoons
             </button>
           </div>
+          
 
           <div>
             <h3>Get Started</h3>
