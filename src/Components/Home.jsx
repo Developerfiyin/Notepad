@@ -189,7 +189,45 @@ const Home = () => {
           <h2 className="text-6xl font-bold mb-12 text-center ">
             More than a notebook
           </h2>
-          <div className="grid grid-cols-4 gap-20">
+          <div className="grid grid-cols-4 gap-20 mb-12">
+            <div className="space-y-3">
+              <img src={image9} alt="" />
+              <h4 className="font-semibold text-2xl">Organize</h4>
+              <h5>
+                Use notebooks to structure your content. Add tags to make it
+                easier to find.
+              </h5>
+            </div>
+
+            <div className="space-y-3">
+              <img src={image10} alt="THE SCISSORS IMAGE" />
+              <h4 className="font-semibold text-2xl">Clip</h4>
+              <h5>
+                Articles, recipes, pages, images—keep track of everything useful
+                you find online.
+              </h5>
+            </div>
+
+            <div className="space-y-3">
+              <img src={image11} alt="THE SEARCH IMAGE" />
+              <h4 className="font-semibold text-2xl">Search</h4>
+              <h5>
+                Find any text in any note. We’ll even catch your typos and make
+                suggestions.
+              </h5>
+            </div>
+
+            <div className="space-y-3">
+              <img src={image12} alt="THE SYNC IMAGE" />
+              <h4 className="font-semibold text-2xl">Sync</h4>
+              <h5>
+                With Evernote on your computer and phone, your notes are always
+                with you.
+              </h5>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-4 gap-20 ">
             <div className="space-y-3">
               <img src={image9} alt="" />
               <h4 className="font-semibold text-2xl">Organize</h4>
