@@ -260,11 +260,11 @@ const Home = () => {
             </div>
 
             <div className="space-y-3">
-              <img src={image12} alt="THE SYNC IMAGE" />
-              <h4 className="font-semibold text-2xl">Sync</h4>
+              <img src={image16} alt="THE PADLOCK IMAGE" />
+              <h4 className="font-semibold text-2xl">Security</h4>
               <h5>
-                With Evernote on your computer and phone, your notes are always
-                with you.
+                Safe, secure cloud storage keeps your information protected and
+                private.
               </h5>
             </div>
           </div>
