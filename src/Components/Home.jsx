@@ -186,10 +186,10 @@ const Home = () => {
         </div>
 
         <div className="">
-          <h2 className="text-6xl font-bold text-center ">
+          <h2 className="text-6xl font-bold mb-12 text-center ">
             More than a notebook
           </h2>
-          <div className="grid grid-cols-4 gap-5">
+          <div className="grid grid-cols-4 gap-20">
             <div className="space-y-3">
               <img src={image9} alt="" />
               <h4 className="font-semibold text-2xl">Organize</h4>
@@ -214,6 +214,15 @@ const Home = () => {
               <h5>
                 Find any text in any note. We’ll even catch your typos and make
                 suggestions.
+              </h5>
+            </div>
+
+            <div className="space-y-3">
+              <img src={image12} alt="THE SYNC IMAGE" />
+              <h4 className="font-semibold text-2xl">Sync</h4>
+              <h5>
+                With Evernote on your computer and phone, your notes are always
+                with you.
               </h5>
             </div>
           </div>
