@@ -12,6 +12,8 @@ import image7 from "../assets/image8.png";
 import image8 from "../assets/image9.png";
 import image9 from "../assets/image10.png";
 import image10 from "../assets/image11.png";
+import image11 from "../assets/image12.png";
+import image12 from "../assets/image13.png";
 
 const Home = () => {
   return (
@@ -203,6 +205,15 @@ const Home = () => {
               <h5>
                 Articles, recipes, pages, images—keep track of everything useful
                 you find online.
+              </h5>
+            </div>
+
+            <div className="space-y-3">
+              <img src={image11} alt="THE SEARCH IMAGE" />
+              <h4 className="font-semibold text-2xl">Search</h4>
+              <h5>
+                Find any text in any note. We’ll even catch your typos and make
+                suggestions.
               </h5>
             </div>
           </div>
