@@ -16,6 +16,8 @@ import image11 from "../assets/image12.png";
 import image12 from "../assets/image13.png";
 import image13 from "../assets/image14.png";
 import image14 from "../assets/image15.png";
+import image15 from "../assets/image16.png";
+import image16 from "../assets/image17.png";
 
 const Home = () => {
   return (
@@ -249,11 +251,11 @@ const Home = () => {
             </div>
 
             <div className="space-y-3">
-              <img src={image11} alt="THE SEARCH IMAGE" />
-              <h4 className="font-semibold text-2xl">Search</h4>
+              <img src={image15} alt="THE SHARING IMAGE" />
+              <h4 className="font-semibold text-2xl">Sharing</h4>
               <h5>
-                Find any text in any note. We’ll even catch your typos and make
-                suggestions.
+                Share a note with friends or family, even if they don’t use
+                Evernote.
               </h5>
             </div>
 
