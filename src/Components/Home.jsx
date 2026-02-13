@@ -390,39 +390,77 @@ const Home = () => {
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            > Notetaker News</button>
+            >
+              {" "}
+              Notetaker News
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              {" "}
+              Product News
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            > </button>
+            >
+              {" "}
+              Release Notes{" "}
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              {" "}
+              Help & learning
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              Templates{" "}
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              Forum
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              {" "}
+              Find an expert
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              {" "}
+              Developers
+            </button>
             <button
               type="button"
               className="px-2 py-1 hover:bg-black/45 rounded font-semibold"
-            ></button>
+            >
+              {" "}
+              Contact Us
+            </button>
+
+            <button
+              type="button"
+              className="px-2 py-1 hover:bg-black/45 rounded font-semibold "
+            >
+              Career
+            </button>
+            <button
+              type="button"
+              className=" px-2 py-1 hover:bg-black/45 rounded font-semibold"
+            >
+              About Bending Spoons
+            </button>
           </div>
 
           <div>
