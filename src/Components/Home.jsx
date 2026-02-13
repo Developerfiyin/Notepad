@@ -231,7 +231,7 @@ const Home = () => {
 
           <div className="grid grid-cols-4 gap-20 ">
             <div className="space-y-3">
-              <img src={image13} alt="" />
+              <img src={image13} alt="THE HOME IMAGE" />
               <h4 className="font-semibold text-2xl"> Home</h4>
               <h5>
                 Start your day with a clear view of your most recent and
@@ -240,11 +240,11 @@ const Home = () => {
             </div>
 
             <div className="space-y-3">
-              <img src={image10} alt="THE SCISSORS IMAGE" />
-              <h4 className="font-semibold text-2xl">Clip</h4>
+              <img src={image14} alt="THE TASK IMAGE" />
+              <h4 className="font-semibold text-2xl"> Tasks</h4>
               <h5>
-                Articles, recipes, pages, images—keep track of everything useful
-                you find online.
+                Capture to-do lists with related notes so you can stay in the
+                flow.
               </h5>
             </div>
 
