@@ -271,7 +271,7 @@ const Home = () => {
         </div>
 
         <div className="grid grid-cols-4 gap-4 ">
-          <div className="  flex ">
+          <div className=" ">
             <div className="flex flex-col items-start gap-4 w-full justify-self-end">
               <h3 className="font-bold text-2xl  ">Solutions</h3>
               <button
@@ -319,20 +319,21 @@ const Home = () => {
             </div>
           </div>
 
-          <div className=" ">
-            <h3>Explore</h3>
-            <button type="button">AI Feature</button>
-            <button type="button">Collaboration</button>
-            <button type="button">Web Clipper</button>
-            <button type="button">Advanced search</button>
-            <button type="button">Document Scanning</button>
-            <button type="button">Personalization</button>
-            <button type="button">Calendar</button>
-            <button type="button">Tasks</button>
-            <button type="button">Integrations</button>
-            <button type="button">Sitemap</button>
+          <div>
+            <div className=" flex flex-col items-start gap-4 w-full justify-self-end">
+              <h3 className="font-bold text-2xl">Explore</h3>
+              <button type="button">AI Feature</button>
+              <button type="button">Collaboration</button>
+              <button type="button">Web Clipper</button>
+              <button type="button">Advanced search</button>
+              <button type="button">Document Scanning</button>
+              <button type="button">Personalization</button>
+              <button type="button">Calendar</button>
+              <button type="button">Tasks</button>
+              <button type="button">Integrations</button>
+              <button type="button">Sitemap</button>
+            </div>
           </div>
-
           <div>
             <h3>Resources</h3>
           </div>
