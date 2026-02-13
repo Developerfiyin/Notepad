@@ -227,6 +227,7 @@ const Home = () => {
             </div>
           </div>
 
+
           <div className="grid grid-cols-4 gap-20 ">
             <div className="space-y-3">
               <img src={image9} alt="" />
@@ -264,7 +265,13 @@ const Home = () => {
               </h5>
             </div>
           </div>
+
+
+
+
         </div>
+
+
       </div>
     </main>
   );
