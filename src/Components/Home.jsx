@@ -14,6 +14,8 @@ import image9 from "../assets/image10.png";
 import image10 from "../assets/image11.png";
 import image11 from "../assets/image12.png";
 import image12 from "../assets/image13.png";
+import image13 from "../assets/image14.png";
+import image14 from "../assets/image15.png";
 
 const Home = () => {
   return (
@@ -227,14 +229,13 @@ const Home = () => {
             </div>
           </div>
 
-
           <div className="grid grid-cols-4 gap-20 ">
             <div className="space-y-3">
-              <img src={image9} alt="" />
-              <h4 className="font-semibold text-2xl">Organize</h4>
+              <img src={image13} alt="" />
+              <h4 className="font-semibold text-2xl"> Home</h4>
               <h5>
-                Use notebooks to structure your content. Add tags to make it
-                easier to find.
+                Start your day with a clear view of your most recent and
+                relevant content.
               </h5>
             </div>
 
@@ -265,13 +266,7 @@ const Home = () => {
               </h5>
             </div>
           </div>
-
-
-
-
         </div>
-
-
       </div>
     </main>
   );
