@@ -270,19 +270,28 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-4">
-          <div className="">
-            <h3 className="font-semibold text-xl mb-5 ">Solutions</h3>
-            <div className=" ">
-              <button>Why Notetaker?</button>
-              <button>Note taking</button>
-              <button>Self Organisation</button>
+        <div className="grid grid-cols-4 gap-4 ">
+          <div className="  flex ">
+            <div className="flex flex-col items-start gap-4 w-full justify-self-end">
+              <h3 className="font-bold text-2xl  ">Solutions</h3>
+              <button
+                type="button"
+                className="px-2 py-1 hover:bg-black/45 rounded font-semibold">
+                Why Notetaker?
+              </button>
+              <button type="button">Note taking</button>
+              <button type="button">Self Organisation</button>
+              <button type="button">Productivity</button>
+              <button type="button">Enterprise</button>
+              <button type="button">Students</button>
+              <button type="button">Compare Plans</button>
             </div>
           </div>
 
-          <div>
+          <div className="flex flex-col ">
             <h3>Explore</h3>
             <button>AI Feature</button>
+            <button type="button">Collaboration</button>
           </div>
 
           <div>
